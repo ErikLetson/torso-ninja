@@ -397,11 +397,17 @@ class Game(object):
 
     def get_highscore(self):
 
-        f = open(os.path.join('data', 'score', 'highscore.dat'), 'r')
+        try:
 
-        self.highscore = int(f.readline())
+            f = open(os.path.join('data', 'score', 'highscore.dat'), 'r')
 
-        f.close()
+            self.highscore = int(f.readline())
+
+            f.close()
+
+        except:
+
+            self.highscore = 0
 
     def record_highscore(self):
 
