@@ -1,0 +1,5 @@
+The undersigned release all their contributions to the Torso Ninja project under the GNU GPL version 3+ license.
+
+*********************************************
+
+1. Erik Letson <hmagellan@tutamail.com>
