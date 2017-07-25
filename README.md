@@ -18,7 +18,8 @@ here as part of relicensing this game under the GNU GPL version 3+.
 ## Requirements
 
 Torso Ninja requires Python 2.x (2.7.9 or later, but NOT 3.x) and Pygame (1.9.1 or later) to play. You can
-download Python [here](https://www.python.org/), and get Pygame [here](http://www.pygame.org/).
+download Python [here](https://www.python.org/), and get Pygame [here](http://www.pygame.org/). If you prefer
+to use pip, install Pygame by running `pip install pygame`.
 
 ## How to Play
 
@@ -36,7 +37,7 @@ version 3+.
 ## License and History
 
 Torso Ninja is licensed under the GNU GPL version 3+, and includes some other files that are under different
-licenses. For a full summary, please read the [license file](torso-ninja/LICENSE.txt).
+licenses. For a full summary, please read the [license file](LICENSE.txt).
 
 Regarding the character of 'Torso Ninja':
 
